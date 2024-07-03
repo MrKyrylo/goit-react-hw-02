@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
 import "./App.css";
 
-import Description from "./components/description/description";
-import Options from "./components/options/options";
-import Feedback from "./components/feedback/feedback";
-import Notification from "./components/notification/notification";
+import Description from "./components/description/description.jsx";
+import Options from "./components/options/options.jsx";
+import Feedback from "./components/feedback/feedback.jsx";
+import Notification from "./components/notification/notification.jsx";
 
 function App() {
   const [thought, setThought] = useState(() => {
